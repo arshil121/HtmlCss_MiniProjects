@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+  background: #FFF8F3;
+  background-image: url('images/header_bg.png'), url('images/developer.png');
+  background-repeat: no-repeat;
+  background-position: bottom right, left;
+}
+
+a {
+  color: #757575;
+  text-decoration: none;
+}
+
+header a h2:hover {
+  color: black;
+}
+
+ul a li:hover {
+  color: black;
+}
+
+.btn-primary {
+  cursor: pointer;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 200px;
+}
+
+header nav ul {
+  display: flex;
+  align-items: center;
+}
+
+header nav ul li {
+  list-style: none;
+  margin-left: 50px;
+}
+
+.text-primary {
+  color: #FD6E0A;
+}
+
+.nav-title {
+  font-weight: 800;
+  font-size: 45px;
+}
+
+.btn-primary {
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 20px;
+  border: 0;
+  padding: 18px 35px;
+  height: 64px;
+  border-radius: 5px;
+  background: #FD6E0A;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  margin: 0 200px;
+}
+
+.banner-title {
+  font-weight: 700;
+  font-size: 85px;
+}
+
+.banner-sub-title {
+  font-weight: 600;
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+
+.banner-description {
+  color: #757575;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
